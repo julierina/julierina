@@ -1,0 +1,90 @@
+html,
+body {
+	height: 100%;
+}
+
+.relative {
+	position: relative;
+	background-color: pink;
+	padding: 15px;
+	top: 30px;
+	font-weight: 400;
+	font-family: 'Beer money';
+}
+.absolute {
+position: absolute;
+top: 50%;
+left: 50%;
+border: 10px dotted black;
+background-color: white;
+padding: 80px;
+transform: translate(-50%, -50%);
+}
+
+.up {
+	z-index: 1;
+}
+
+.purple {
+background-color: purple;
+height: 100px;
+}
+
+.main-menu {
+	list-style: none;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+	flex-wrap: wrap;
+}
+
+.main-menu li {
+	padding: 15px;
+}
+
+aside {
+	height: 100%;
+	background: radial-gradient(#38bac7, #324a56);
+	padding: 30px;
+	position: fixed;
+	right: 0;
+	z-index: 2;
+	top: 0;
+	color: white;
+}
+
+.aside-menu {
+	height: 100%;
+}
+
+video {
+	width: 50%;
+}
+
+.wrapper {
+	background: linear-gradient(blue, green, yellow);
+	height: 100%;
+}
+
+.avatar {
+	background-image: url(me2.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	transition: all 2s;
+}
+
+.avatar:hover {
+	transform: rotate(359deg) scale(2);
+}
+
+
+
+
+
+
+
